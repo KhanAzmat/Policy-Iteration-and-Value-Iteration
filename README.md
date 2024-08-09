@@ -1,2 +1,3 @@
 # Policy-Iteration-and-Value-Iteration
 Implementation of Policy Iteration and Value Iteration for a classic MDP environment called “Taxi” (Dietterich, 2000).
+The state space consists of 500 possible states as there are 25 taxi positions, 5 possible locations of the passenger (including the case when the passenger is in the taxi), and 4 destination locations. Moreover, the agent has 6 possible actions (namely, 0: move south; 1: move north; 2: move east; 3: move west; 4: pickup passenger; 5: drop off passenger). The rewards are: (i) -1 per step unless other reward is triggered; (ii) +20 for delivering passenger; (iii) -10 for executing “pickup” and “drop-off” actions illegally.
